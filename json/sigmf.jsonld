@@ -1,0 +1,143 @@
+{
+    "@context": {
+      "core": "https://sigmf.org/core/",
+      "xsd": "http://www.w3.org/2001/XMLSchema#",
+      "dataset": {
+        "@id": "core:dataset",
+        "@type": "xsd:string"
+      },
+      "datatype": {
+        "@id": "core:datatype",
+        "@type": "xsd:string"
+      },
+      "sample_rate": {
+        "@id": "core:sample_rate",
+        "@type": "xsd:double"
+      },
+      "version": {
+        "@id": "core:version",
+        "@type": "xsd:string"
+      },
+      "num_channels": {
+        "@id": "core:num_channels",
+        "@type": "xsd:unsignedInt"  
+      },
+      "sha512": {
+        "@id": "core:sha512",
+        "@type": "xsd:string"
+      },
+      "offset": {
+        "@id": "core:offset",
+        "@type": "xsd:unsignedInt"
+      },
+      "description": {
+        "@id": "core:description",
+        "@type": "xsd:string"
+      },
+      "author": {
+        "@id": "core:author",
+        "@type": "xsd:string"
+      },
+      "meta_doi": {
+        "@id": "core:meta_doi",
+        "@type": "xsd:string"
+      },
+      "data_doi": {
+        "@id": "core:data_doi", 
+        "@type": "xsd:string"
+      },
+      "recorder": {
+        "@id": "core:recorder",
+        "@type": "xsd:string"
+      },
+      "license": {
+        "@id": "core:license",
+        "@type": "xsd:anyURI"
+      },
+      "hw": {
+        "@id": "core:hw",
+        "@type": "xsd:string"
+      },
+      "geolocation": {
+        "@id": "core:geolocation",
+        "@type": "geojson:Point"
+      },
+      "extensions": {
+        "@id": "core:extensions",
+        "@container": "@list"
+      },
+      "collection": {
+        "@id": "core:collection",
+        "@type": "xsd:string"  
+      },
+      "metadata_only": {
+        "@id": "core:metadata_only",
+        "@type": "xsd:boolean"
+      },
+      "trailing_bytes": {
+        "@id": "core:trailing_bytes",
+        "@type": "xsd:unsignedInt"
+      },
+      "captures": {
+        "@id": "core:captures",
+        "@container": "@list"
+      },
+      "sample_start": {
+        "@id": "core:sample_start",
+        "@type": "xsd:unsignedInt"
+      },
+      "global_index": {
+        "@id": "core:global_index",
+        "@type": "xsd:unsignedInt"  
+      },
+      "frequency": {
+        "@id": "core:frequency",
+        "@type": "xsd:double"
+      },
+      "datetime": {
+        "@id": "core:datetime",
+        "@type": "xsd:dateTime"
+      },
+      "header_bytes": {
+        "@id": "core:header_bytes",
+        "@type": "xsd:unsignedInt"
+      },
+      "annotations": {
+        "@id": "core:annotations",
+        "@container": "@list"  
+      },
+      "sample_count": {
+        "@id": "core:sample_count",
+        "@type": "xsd:unsignedInt"
+      },
+      "freq_lower_edge": {
+        "@id": "core:freq_lower_edge",
+        "@type": "xsd:double"
+      },
+      "freq_upper_edge": {
+        "@id": "core:freq_upper_edge", 
+        "@type": "xsd:double"
+      },
+      "label": {
+        "@id": "core:label",
+        "@type": "xsd:string"
+      },
+      "generator": {
+        "@id": "core:generator",
+        "@type": "xsd:string"  
+      },
+      "comment": {
+        "@id": "core:comment",
+        "@type": "xsd:string"
+      },
+      "uuid": {
+        "@id": "core:uuid",
+        "@type": "xsd:string"
+      },
+      "streams": {
+        "@id": "core:streams",
+        "@container": "@list"
+      },
+      "geojson": "https://purl.org/geojson/vocab#"
+    }
+  }
